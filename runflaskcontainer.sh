@@ -1,4 +1,5 @@
 docker run -it --rm \
---runtime=nvidia \
--v $(pwd)/app:/home \
+-e FLASK_APP=tfgui.py \
+-e FLASK_DEBUG=1 \
+-v $(pwd)/tfgui:/home \
 -p 5000:5000 zeltf:latest

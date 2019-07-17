@@ -13,14 +13,12 @@ This is a box setup to work on tensorflow stuff. A gui will be presented via fla
 ## Overview
 
 ### Build Image
-Build image with script via  
-`sh createdockerimage.sh`
+Build image with script via  `sh createdockerimage.sh`
 
 Image base comes from tensorflow/1.14-py3
-Image name is currently alised zeltf.
+Image name is currently alised `zeltf`.
 
-Run container with script via  
-`sh runflaskcontainer.sh`
+Run container with script via  `sh runflaskcontainer.sh`
 
 ### Docker setups
 
