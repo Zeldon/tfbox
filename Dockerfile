@@ -8,3 +8,5 @@ COPY requirements.txt /srv/requirements.txt
 # Flask==1.1.1
 #RUN pip3 install Flask==1.1.1
 RUN pip3 install -r /srv/requirements.txt
+
+#ENTRYPOINT [ "bash" ]

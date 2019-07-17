@@ -1,0 +1,13 @@
+version: '3'
+services: 
+  flask:
+    container_name: fg
+    build: .
+    image: zeltf
+    volumes: 
+      - ./app:/home
+    ports:
+      - "5000:5000"
+    entrypoint: "bash"
+    stdin_open: true #-i
+    tty: true #-t
