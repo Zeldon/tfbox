@@ -6,3 +6,9 @@ This is a box setup to work on tensorflow stuff. A gui will be presented via fla
 2. Model Choices.
 3. Pipeline Explanation.
 4. GUI controls.
+
+## Overview
+
+### Docker setups
+
+#### 1. docker-compose
