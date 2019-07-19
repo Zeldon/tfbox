@@ -23,7 +23,7 @@ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - && \
 apt-get update -y && apt-get install google-cloud-sdk -y
 
 # Install object detection api dependencies
-RUN apt-get install -y protobuf-compiler python-pil python-lxml python-tk && \
+RUN apt-get install -y protobuf-compiler python-pil python-lxml python-tk python3-pil && \
 pip install Cython && \
 pip install contextlib2 && \
 pip install jupyter && \
